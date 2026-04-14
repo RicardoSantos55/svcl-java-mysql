@@ -115,33 +115,4 @@ git push -u origin master
 git push -u origin develop
 ```
 
-## Checklist de la rubrica
 
-### Criterio 1
-
-- crear ramas `master` y `develop`
-- registrar requisitos como GitHub Issues
-- crear milestones `Beta` y `RC`
-
-### Criterio 2
-
-- conectar el repositorio con Zube o Gitlo
-
-### Criterio 3
-
-- habilitar Travis-CI en el repositorio
-- verificar que `mvn test` ejecute `CoberturaTest`
-
-### Criterio 4
-
-- usar la arquitectura documentada en `docs/architecture.md`
-
-## Sugerencia para Issues
-
-Al subir el repositorio crea al menos estos issues:
-
-1. Login y control de sesion.
-2. Importacion de Excel a MySQL.
-3. Busqueda por codigo postal y validacion de distancia.
-4. Alta manual de registros.
-5. Pruebas y CI con Maven/JUnit/Travis.
